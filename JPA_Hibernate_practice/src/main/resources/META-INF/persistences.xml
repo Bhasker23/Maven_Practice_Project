@@ -6,12 +6,13 @@
         version="2.0">
     
     
-    <persistence-unit name="MavenUnit1">
+    <persistence-unit name="studentUnit1">
+    <class>com.models.Students</class>
     
 	    <properties>
 	    
 	     <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver" />
-		 <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/mavenPrctice" />
+		 <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/mavenpractice" />
 		 <property name="javax.persistence.jdbc.user" value="root" />
 		 <property name="javax.persistence.jdbc.password" value="root" />
 		 
