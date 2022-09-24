@@ -10,7 +10,7 @@ public class Connection {
 	
 	public static void main(String[] args) {
 		
-		EntityManagerFactory emf = Persistence.createEntityManagerFactory("studentUnit1");
+		EntityManagerFactory emf = Persistence.createEntityManagerFactory("studentUnit");
 		
 		EntityManager em = emf.createEntityManager();
 		
